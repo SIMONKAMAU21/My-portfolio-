@@ -7,16 +7,16 @@ function Right() {
       <div className="right-wrap">
         <div className="right-header">
           <h2>
-          Passionate web developer
+            Passionate web developer
           </h2>
         </div>
         <div className="right-text">
           <p>
-       <span>WELCOME !</span> IM SIMON KAMAU, a web developer
+            <span>WELCOME !</span> IM SIMON KAMAU, a web developer
             <br />
-           specializing in <span>React</span> ,<span>Express js</span>.<br />
-     and <span>Microsoft SQL.</span>
-     Lets build something amazing together!
+            specializing in <span>React</span> ,<span>Express js</span>.<br />
+            and <span>Microsoft SQL.</span>
+            Lets build something amazing together!
           </p>
           <p>Exprole my portfolio to see my projects</p>
         </div>

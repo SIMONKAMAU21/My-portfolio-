@@ -1,0 +1,48 @@
+.wrapper {
+  margin-top: 7rem;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  perspective: 10px;
+  header {
+   position: relative;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+   height: 100%;
+   width: 100%;
+   transform-style: preserve-3d;
+   z-index: -1;
+   .back {
+     transform: translateZ(-30px) scale(4);
+
+   }
+   .fore {
+     transform: translateZ(-10px) scale(1.5);
+
+   }
+  
+   .back,
+   .fore
+    {
+     position: absolute;
+     height: 100%;
+     width: 100%;
+     object-fit: cover;
+     z-index: -1;
+   }
+ }
+  section {
+    font-size: 25px;
+    padding: 2rem;
+    color: #fff;
+    background-color: #333;
+  }
+
+  .tittle {
+    font-size: 7rem;
+    text-shadow: 0 0 5px #000000;
+    color: white;
+  }
+}

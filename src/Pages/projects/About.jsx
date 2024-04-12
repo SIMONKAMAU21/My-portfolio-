@@ -21,7 +21,7 @@ function About() {
           <img src={login} alt="nopic" srcset="" />
         </div>
         <div className="btn">
-        <Link to="">see more</Link>
+        <Link to="/Services">see more</Link>
         </div>
       </section>
 

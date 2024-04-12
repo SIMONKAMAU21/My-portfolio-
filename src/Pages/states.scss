@@ -1,0 +1,33 @@
+.holder{
+   background-color: rgb(152, 186, 216);
+   display: flex;
+   justify-content: center;
+   height: 100vh;
+   align-items: center;
+   flex-direction: column;
+   gap: 1rem;
+   .decrement{
+      button{
+         background-color: green;
+         border: none;
+         border-radius: 10px;
+         color: white;
+         &:hover{
+            background-color: red;
+         }
+      }
+   }
+   .button{
+
+button{
+   background-color: red;
+   color: white;
+border-radius: 10px;   
+border: none;
+&:hover{
+   background-color: green;
+}
+
+}
+   }
+}
